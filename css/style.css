@@ -113,6 +113,7 @@
 .text-skill {
     font-size: 18px;
     font-weight: 400;
+    text-align: center;
 }
 
 .education{
@@ -172,6 +173,15 @@
 }
 
 .center {
+    text-align: center;
+}
+
+div.title {
+    text-align: center;
+    font-size: 1.25em; 
+}
+
+div.description{
     text-align: center;
 }
 
@@ -259,10 +269,27 @@ header {
     font-size: 1.2rem;
 }
 
+img.center {
+    justify-self: center;
+}
+
+img.fill {
+    width:100%;
+    height:100%;
+    border: 5px rgba(255, 255, 255, .5);
+    background-clip: padding-box;
+    margin:2%;
+}
+
 img.decor{
 	text-decoration:none;
 	border:#0b7178 thick solid;
 	padding: 4px;
+}
+
+div.heading {
+    font-size: 1.17em;  /* h3 */
+    min-height: fit-content;
 }
 
 .thead-dark{
@@ -313,6 +340,7 @@ img.decor{
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     padding: 0 15px;
+    justify-self: center;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
