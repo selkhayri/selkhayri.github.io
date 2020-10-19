@@ -191,6 +191,8 @@ div.description{
     text-align: center;
 }
 
+
+
 div.top {
     background-color: rgba(0,87,128,0);
     width: 100%;
@@ -335,6 +337,7 @@ div.heading {
     -webkit-transition: all 0.35s;
     -moz-transition: all 0.35s;
     transition: all 0.35s;
+    display: none;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -533,5 +536,27 @@ div.heading {
   body {
     webkit-tap-highlight-color: #222222;
 }
-  #homeHeading{color:black;}
-  
+#homeHeading{color:black;}
+
+
+/*Hide for larger screens*/
+div.NoHover {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+
+/*show for small screens */
+@media screen and (max-width: 500px) { 
+    div.NoHover {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .portfolio-box .portfolio-box-caption {
+        display: block;
+    }
+}
