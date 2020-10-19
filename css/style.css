@@ -549,13 +549,13 @@ div.NoHover {
 }
 
 /*show for small screens */
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 1023px) { 
     div.NoHover {
         display: block;
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1024px) {
     .portfolio-box .portfolio-box-caption {
         display: block;
     }
