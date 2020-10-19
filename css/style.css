@@ -560,3 +560,7 @@ div.NoHover {
         display: block;
     }
 }
+
+div.mynavbar {
+    font-size: 1rem;
+}
