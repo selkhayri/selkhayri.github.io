@@ -191,21 +191,6 @@ div.description{
     text-align: center;
 }
 
-
-
-div.top {
-    background-color: rgba(0,87,128,0);
-    width: 100%;
-    position: fixed;
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%;
-    opacity: 1.0;
-}
-
-div.opaque {
-    opacity: 1;
-}
-
 div.center {
     vertical-align: center;
 }
@@ -549,18 +534,14 @@ div.NoHover {
 }
 
 /*show for small screens */
-@media screen and (max-width: 1023px) { 
+@media screen and (max-width: 991px) { 
     div.NoHover {
         display: block;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
     .portfolio-box .portfolio-box-caption {
         display: block;
     }
-}
-
-div.mynavbar {
-    font-size: 1rem;
 }
