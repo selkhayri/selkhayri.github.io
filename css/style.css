@@ -58,17 +58,17 @@
 }
 
 .header-content {
-    padding: 85px;
+    padding-top: 50px;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-color:#099;
+    background-color: #c2c2c5; /* #099*/
     
 }
 
 
 .about {
-    padding: 40px;
+    padding: 20px;
     font-size: 20px;
     font-weight: 700;
     background-size: cover;
@@ -544,4 +544,8 @@ div.NoHover {
     .portfolio-box .portfolio-box-caption {
         display: block;
     }
+}
+
+hr {
+    border: 1px solid #c2c2c5;
 }
